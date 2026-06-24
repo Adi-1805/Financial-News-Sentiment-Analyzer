@@ -27,8 +27,7 @@ This Python script analyzes the sentiment of financial news articles using the G
 
 1. Clone the repository:
    ```
-   git clone https://github.com/jmcdice/newsfeel.git
-   cd newsfeel
+   git clone https://github.com/Adi-1805/Financial-News-Sentiment-Analyzer.git
    ```
 
 2. Install the required packages:
@@ -48,7 +47,7 @@ This Python script analyzes the sentiment of financial news articles using the G
 Run the script using the following command:
 
 ```
-python newsfeel.py [options]
+python main.py [options]
 ```
 
 ### Options:
@@ -65,22 +64,22 @@ python newsfeel.py [options]
 
 1. Analyze 10 articles about "Bitcoin":
    ```
-   python newsfeel.py -n 10 -t "Bitcoin"
+   python main.py -n 10 -t "Bitcoin"
    ```
 
 2. Analyze cache sentiments for previously fetched "Stock Market" articles:
    ```
-   python newsfeel.py --analyze_cache -t "Stock Market"
+   python main.py --analyze_cache -t "Stock Market"
    ```
 
 3. Generate a summary analysis of cached "Cryptocurrency" articles:
    ```
-   python newsfeel.py --analyze_summaries -t "Cryptocurrency"
+   python main.py --analyze_summaries -t "Cryptocurrency"
    ```
 
 4. Output results to a CSV file:
    ```
-   python newsfeel.py -n 20 -t "Gold Price" -o results.csv
+   python main.py -n 20 -t "Gold Price" -o results.csv
    ```
 
 ## Output
